@@ -1,0 +1,67 @@
+body {
+    background-color: #fce6f1;
+    font-family: 'Times New Roman';
+    font-size: 1em;
+    color: #000000;
+    margin-left: 5%;
+    margin-top: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+#titulo {
+    font-family: 'Times New Roman';
+    color: #000000;
+
+}
+
+#subtitle {
+    font-family: 'Times New Roman';
+    color: #000000;
+    margin-left: 5%;
+}
+
+fieldset {
+    border: 0;
+    padding: 0 ;
+}
+
+input, select, textarea, button {
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000000;
+    display: block;
+}
+
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #ce1179;
+    border: 0;
+    color: #ffffff;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #f344d6;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
